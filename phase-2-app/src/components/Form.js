@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-function Form ( {name, country, zipcode, state, city} ) {
-    const [state, setState] = useState(null);
+function Form ( {name, country, zipcode, city} ) {
+    //const [state, setState] = useState(null);
 
     return (
         <div id="form" className="weather-form">

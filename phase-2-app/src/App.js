@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js'
 import Form from './components/Form.js'
+import TestComponent from './components/TestComponent.js'
 
 function App() {
   return (
     <div className="App">
-    {/* <Header />
-    <Form /> */}
+    <Header />
+    <Form />
+    <TestComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
