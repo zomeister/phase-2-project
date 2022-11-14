@@ -9,6 +9,10 @@ const title = "Nondescript Weather Application for Browser";
 //     )
 // }
 
+/**
+ * title, nav, simple directions
+ *
+ */
 function Header (props) {
     
 
